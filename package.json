@@ -1,13 +1,23 @@
 {
-  "name": "mvc-tech-blog",
+  "name": "module14challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csetiawan88/techblog.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csetiawan88/techblog/issues"
+  },
+  "homepage": "https://github.com/csetiawan88/techblog#readme",
   "dependencies": {
     "bcrypt": "^5.1.0",
     "connect-session-sequelize": "^7.1.7",
@@ -17,10 +27,6 @@
     "express-session": "^1.17.3",
     "handlebars": "^4.7.8",
     "mysql2": "^3.6.0",
-    "node": "^v18.16.1",
     "sequelize": "^6.32.1"
-  },
-  "devDependencies": {
-    "nodemon": "^3.0.1"
   }
 }
