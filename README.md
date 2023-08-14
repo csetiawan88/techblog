@@ -54,7 +54,17 @@ My challenge this week is to build a CMS-style blog site similar to a Wordpress 
 
 1. Navigate to the develop folder using the command prompt.
 2. Run `npm install` to install all dependencies. (List of dependencies shown on Technologies below)
-3. Once everything is installed and updated with your information, run the following commands to create your database, tables to get started. `mysql - u root -p`
+3. Once everything is installed and updated with your information, run the following commands to create your database, tables to get started. 
+
+```md
+mysql - u root -p
+
+<yourpassword>
+
+SOURCE db/schema.sql;
+
+exit
+```
 4. To run the application locally, run `node server.js` in your command prompt.
 5. And then open `http://localhost:3001` in your browser.
 6. To end your server in your command prompt type: Ctrl + c
@@ -72,7 +82,10 @@ csetiawan88 - https://github.com/csetiawan88/
 
 ## Screenshot
 
-![Tech Blog](screenshot1.jpg)
+
+![Tech Blog Home Page](./assets/screenshot1.jpg)
+![Blog Post](./assets/screenshot2.jpg)
+![Create Post](./assets/screenshot3.jpg)
 
 ## Technologies
 
