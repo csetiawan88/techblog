@@ -1,32 +1,34 @@
+// Logout Element
+
+// Timer for idle on the site for more than a set time
 let timer,
   currSeconds = 0;
 
 function resetTimer() {
-  /* Clear the previous interval */
+  /* Clear interval */
   clearInterval(timer);
 
-  /* Reset the seconds of the timer */
+  /* Reset timer */
   currSeconds = 0;
 
-  /* Set a new interval */
+  /* Set new interval */
   timer = setInterval(startIdleTimer, 1000);
 }
 
-// Define the events that
-// would reset the timer
-window.onload = resetTimer;
-window.onmousemove = resetTimer;
-window.onmousedown = resetTimer;
+// Events that reset the timer.
 window.ontouchstart = resetTimer;
 window.onclick = resetTimer;
 window.onkeypress = resetTimer;
+window.onload = resetTimer;
+window.onmousemove = resetTimer;
+window.onmousedown = resetTimer;
 
+// Start Idle timer
 function startIdleTimer() {
-  /* Increment the
-    timer seconds */
+  //Increment the timer in second
   currSeconds++;
   if (currSeconds > 180) {
-    logOut(); // Idle Time 3 minutes
+    logOut(); // Idle Time 3 minutes, else logout
   }
 }
 
@@ -36,9 +38,10 @@ const logOut = async () => {
     headers: { "Content-Type": "application/json" },
   });
   if (response.ok) {
+    alert("logout!");
     document.location.replace("/");
   } else {
-    alert("Failed to logout!");
+    alert("Error to logout!");
   }
 };
 

@@ -11,7 +11,6 @@ router.post("/", withAuth, async (req, res) => {
       post_id: req.body.post_id,
     });
     res.redirect(req.header("Referrer"));
-    res.status(200).json(newComment);
   } catch (error) {
     res.status(500).json(error);
   }
