@@ -38,6 +38,7 @@ const logOut = async () => {
     headers: { "Content-Type": "application/json" },
   });
   if (response.ok) {
+    // Message to show if sucesfully logout
     alert("logout!");
     document.location.replace("/");
   } else {

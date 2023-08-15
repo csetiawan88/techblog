@@ -12,9 +12,11 @@ const signupForm = async (event) => {
     });
 
     if (response.ok) {
+      // Message to show if sucesfully signup
       alert("signed up!");
       document.location.replace("/dashboard");
     } else {
+      // Message to show if username exist
       alert("Error signing up, Username already exist!");
     }
   }

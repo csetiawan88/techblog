@@ -12,6 +12,7 @@ const loginForm = async (event) => {
     });
 
     if (response.ok) {
+      // Message to show if sucesfully login
       alert("Login Successful!");
       document.location.replace("/dashboard");
     } else {
