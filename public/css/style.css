@@ -2,9 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200;400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Sono:wght@400&display=swap');
-/* *{
-    width: 100%;
-} */
 
 h1, h4 {
     font-family: 'Share Tech Mono', sans-serif;
@@ -20,7 +17,7 @@ ul, h2 {
 
 .header-style {
   background-color: rgb(209, 213, 252);
-  color: black;
+  color: white;
   padding: 30px;
 }
 
@@ -52,23 +49,23 @@ nav a {
 }
 
 body {
-  background-color: rgb(249, 180, 180);
+  background-color: rgb(255, 255, 255);
 }
 
 .log-form {
   border: black;
   border-style: solid;
-  background-color: rgb(81, 242, 199);
+  background-color: rgb(155, 239, 216);
 }
 
 .sign-form {
   border: black;
-  border-style: double;
+  border-style: solid;
   background-color: beige;
 }
 
 .new-post {
-  background-color: darkred;
+  background-color: rgb(0, 84, 62);
   font-weight: 700;
   color: aliceblue;
 }
@@ -78,11 +75,11 @@ body {
 }
 
 .main-list {
-  color: aliceblue;
+  color: white;
   margin-bottom: 20px;
   padding: 2.5%;
   border-radius: 20px;
-  background-color: rgb(194, 170, 170);
+  background-color: rgb(0, 84, 62);
   text-decoration: none;
 }
 
@@ -94,21 +91,27 @@ body {
 }
 
 .dashboard-card {
-  color: beige;
-  border: rgb(119, 53, 53);
-  border-style: groove;
+  color: white;
+  border: black;
+  border-style: solid;
   margin-bottom: 10px;
-  background-color: rgb(119, 53, 53);
+  background-color: rgb(0, 84, 62);
 }
 
 .comment-card {
-  color: beige;
-  border: rgb(119, 53, 53);
-  border-style: groove;
+  color: rgb(251, 251, 251);
+  border: black;
+  border-style: solid;
   margin-bottom: 10px;
-  background-color: rgb(119, 53, 53);
+  background-color: rgb(0, 84, 62);
+}
+
+.welcome-message {
+  color: blue;
+  font-weight: 700;
+  font-size: x-large;
 }
 
 .single-post {
-  padding: 0.75rem 1.25rem;
+  padding: 1rem 1.5rem;
 }
