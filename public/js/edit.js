@@ -14,6 +14,7 @@ const editPostHandler = async (event) => {
     headers: { "Content-Type": "application/json" },
   });
   if (response.ok) {
+    // Message to show if sucesfully edited
     alert("Successfully edited");
     document.location.replace("/dashboard");
   } else {
