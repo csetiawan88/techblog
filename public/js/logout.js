@@ -1,15 +1,15 @@
-let timer, currSeconds = 0;
+let timer,
+  currSeconds = 0;
 
 function resetTimer() {
-    /* Clear the previous interval */
-    clearInterval(timer);
+  /* Clear the previous interval */
+  clearInterval(timer);
 
-    /* Reset the seconds of the timer */
-    currSeconds = 0;
+  /* Reset the seconds of the timer */
+  currSeconds = 0;
 
-    /* Set a new interval */
-    timer =
-    setInterval(startIdleTimer, 1000);
+  /* Set a new interval */
+  timer = setInterval(startIdleTimer, 1000);
 }
 
 // Define the events that
@@ -22,25 +22,24 @@ window.onclick = resetTimer;
 window.onkeypress = resetTimer;
 
 function startIdleTimer() {
-    /* Increment the
+  /* Increment the
     timer seconds */
-    currSeconds++;
-    if (currSeconds > 60) {
-        logOut();
-    }
+  currSeconds++;
+  if (currSeconds > 180) {
+    logOut(); // Idle Time 3 minutes
+  }
 }
 
-
 const logOut = async () => {
-    const response = await fetch('/api/user/logout', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json'},
-    });
-    if (response.ok) {
-        document.location.replace('/');
-    } else {
-        alert('Failed to logout!');
-    }
+  const response = await fetch("/api/user/logout", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+  });
+  if (response.ok) {
+    document.location.replace("/");
+  } else {
+    alert("Failed to logout!");
+  }
 };
 
-document.querySelector('#logout').addEventListener('click', logOut);
+document.querySelector("#logout").addEventListener("click", logOut);

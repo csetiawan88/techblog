@@ -69,6 +69,7 @@ exit
 5. And then open `http://localhost:3001` in your browser.
 6. To end your server in your command prompt type: Ctrl + c
 7. Else click deployed site (HEROKU): 
+8. Idle on the site for more than 3 minutes then will force logout.
 
 ## Repository & URL - Link
 
@@ -82,14 +83,30 @@ csetiawan88 - https://github.com/csetiawan88/
 
 ## Screenshot
 
-
+#### Tech Blog Home Page
 ![Tech Blog Home Page](./assets/screenshot1.jpg)
-![Blog Post](./assets/screenshot2.jpg)
-![Create Post](./assets/screenshot3.jpg)
+
+#### Login Page
+![Login Page](./assets/login.jpg)
+
+#### Sign Up Page
+![Sign Up Page](./assets/signup.jpg)
+
+#### Comment Page
+![Comment Post](./assets/addcomment.jpg)
+
+#### Create new Post
+![Create Post](./assets/create.jpg)
+
+#### Update / Delete existing Post
+![Update / Delete Post](./assets/updatedelete.jpg)
 
 ## Technologies
 
-- [MySQL](https://www.mysql.com/)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [HTML](https://html.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [jquery](https://jquery.com/)
 - [Express.js](https://expressjs.com/)
 - [Node.js](https://nodejs.org/en/)
 - [npmjs](https://docs.npmjs.com/)
@@ -97,10 +114,6 @@ csetiawan88 - https://github.com/csetiawan88/
 - [Sequelize ORM](https://sequelize.org/)
 - [dotenv](https://www.npmjs.com/package/dotenv)
 - [handlebars](https://handlebarsjs.com/)
-- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-- [HTML](https://html.com/)
-- [Bootstrap](https://getbootstrap.com/)
-- [jquery](https://jquery.com/)
 - [bcrypt](https://www.npmjs.com/package/bcrypt)
 
 ## Questions
