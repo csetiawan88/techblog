@@ -1,3 +1,4 @@
+// Dependencies
 const path = require("path");
 const express = require("express");
 const session = require("express-session");
@@ -8,7 +9,9 @@ const sequelize = require("./config/connection");
 const SequelizeStore = require("connect-session-sequelize")(session.Store);
 const helpers = require("./utils/helpers");
 
+// Use express.js
 const app = express();
+// Creating specific port to start the app
 const PORT = process.env.PORT || 3001;
 
 const sess = {
@@ -28,8 +31,11 @@ const hbs = exphbs.create({ helpers });
 app.engine("handlebars", hbs.engine);
 app.set("view engine", "handlebars");
 
+// Middleware for parsing JSON and urlencoded form data
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// Middleware to serve up static assets from the public folder
 app.use(express.static(path.join(__dirname, "public")));
 
 app.use(routes);
