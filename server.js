@@ -14,6 +14,7 @@ const app = express();
 // Creating specific port to start the app
 const PORT = process.env.PORT || 3001;
 
+//cookie data
 const sess = {
   secret: "Super secret secret",
   cookie: {},
