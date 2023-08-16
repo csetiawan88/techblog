@@ -27,6 +27,7 @@ const sess = {
 
 app.use(session(sess));
 
+// Using Helpers
 const hbs = exphbs.create({ helpers });
 
 app.engine("handlebars", hbs.engine);
