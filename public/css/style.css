@@ -83,21 +83,6 @@ body {
   text-decoration: none;
 }
 
-.content-card {
-  padding: 2%;
-  text-decoration: none;
-  background-color: beige;
-  color: black;
-}
-
-.dashboard-card {
-  color: white;
-  border: black;
-  border-style: solid;
-  margin-bottom: 10px;
-  background-color: rgb(0, 84, 62);
-}
-
 .comment-card {
   color: rgb(251, 251, 251);
   border: black;
@@ -114,4 +99,19 @@ body {
 
 .single-post {
   padding: 1rem 1.5rem;
+}
+
+.content-card {
+  padding: 2%;
+  text-decoration: none;
+  background-color: beige;
+  color: black;
+}
+
+.dashboard-card {
+  color: white;
+  border: black;
+  border-style: solid;
+  margin-bottom: 10px;
+  background-color: rgb(0, 84, 62);
 }

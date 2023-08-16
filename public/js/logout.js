@@ -4,18 +4,14 @@
 let timer,
   currSeconds = 0;
 
+// Reset Timer function
 function resetTimer() {
-  /* Clear interval */
   clearInterval(timer);
-
-  /* Reset timer */
   currSeconds = 0;
-
-  /* Set new interval */
   timer = setInterval(startIdleTimer, 1000);
 }
 
-// Events that reset the timer.
+// Events that will reset the timer.
 window.ontouchstart = resetTimer;
 window.onclick = resetTimer;
 window.onkeypress = resetTimer;
