@@ -86,27 +86,27 @@ csetiawan88 - https://github.com/csetiawan88/
 
 #### Tech Blog Home Page
 
-![Tech Blog Home Page](./assets/screenshot1.jpg)
+![Tech Blog Home Page](screenshot1.jpg)
 
 #### Login Page
 
-![Login Page](./assets/login.jpg)
+![Login Page](login.jpg)
 
 #### Sign Up Page
 
-![Sign Up Page](./assets/signup.jpg)
+![Sign Up Page](signup.jpg)
 
 #### Comment Page
 
-![Comment Post](./assets/addcomment.jpg)
+![Comment Post](addcomment.jpg)
 
 #### Create new Post
 
-![Create Post](./assets/create.jpg)
+![Create Post](create.jpg)
 
 #### Update / Delete existing Post
 
-![Update / Delete Post](./assets/updatedelete.jpg)
+![Update / Delete Post](updatedelete.jpg)
 
 ## Technologies
 
