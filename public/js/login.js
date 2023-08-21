@@ -16,7 +16,7 @@ const loginForm = async (event) => {
       alert("Login Successful!");
       document.location.replace("/dashboard");
     } else {
-      alert("Couldnt login. Please Try again.");
+      alert("Could not login. Please Try again.");
     }
   }
 };

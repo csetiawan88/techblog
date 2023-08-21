@@ -54,7 +54,7 @@ My challenge this week is to build a CMS-style blog site similar to a Wordpress 
 
 1. Navigate to the develop folder using the command prompt.
 2. Run `npm install` to install all dependencies. (List of dependencies shown on Technologies below)
-3. Once everything is installed and updated with your information, run the following commands to create your database, tables to get started. 
+3. Once everything is installed and updated with your information, run the following commands to create your database, tables to get started.
 
 ```md
 mysql - u root -p
@@ -65,17 +65,18 @@ SOURCE db/schema.sql;
 
 exit
 ```
+
 4. To run the application locally, run `node server.js` in your command prompt.
 5. And then open `http://localhost:3001` in your browser.
 6. To end your server in your command prompt type: Ctrl + c
-7. Else click deployed site (HEROKU): 
+7. Else click deployed site (HEROKU): https://techblog888-e00900e4a40b.herokuapp.com/
 8. Idle on the site for more than 3 minutes then will force logout.
 
 ## Repository & URL - Link
 
 GITHUB: https://github.com/csetiawan88/techblog
 
-URL:
+URL: https://techblog888-e00900e4a40b.herokuapp.com/
 
 ## Contributing
 
@@ -84,21 +85,27 @@ csetiawan88 - https://github.com/csetiawan88/
 ## Screenshot
 
 #### Tech Blog Home Page
+
 ![Tech Blog Home Page](./assets/screenshot1.jpg)
 
 #### Login Page
+
 ![Login Page](./assets/login.jpg)
 
 #### Sign Up Page
+
 ![Sign Up Page](./assets/signup.jpg)
 
 #### Comment Page
+
 ![Comment Post](./assets/addcomment.jpg)
 
 #### Create new Post
+
 ![Create Post](./assets/create.jpg)
 
 #### Update / Delete existing Post
+
 ![Update / Delete Post](./assets/updatedelete.jpg)
 
 ## Technologies
